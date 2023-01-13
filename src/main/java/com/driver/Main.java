@@ -13,7 +13,7 @@ public class Main {
         System.out.println(p.product(10.5,20.5));
     }
 
-    static class Product{
+    public static class Product{
 
         public int product(int x, int y) {
             return x * y;
