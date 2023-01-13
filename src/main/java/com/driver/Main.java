@@ -11,8 +11,13 @@ public class Main {
         System.out.println(p.product(10,20,30));
         p.product(10.5,20.5);
         System.out.println(p.product(10.5,20.5));
+
     }
 
+    //final solution
+    //create Product class as public static in Main class
+    //public --> to access outside package
+    //static --> bcoz we call from static main function
     public static class Product{
 
         public int product(int x, int y) {
